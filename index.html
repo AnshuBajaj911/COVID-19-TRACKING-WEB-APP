@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<head>
+    <title>COUNTRYWISE COVID TRACKER</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src="index.js" > </script>   
+    <link rel="stylesheet" href="Stylesheet.css">
+</head>
+
+<body class="bg-info"> 
+      
+      <center> 
+               <h1>COUNTRYWISE COVID 19 DATA TRACKER</h1> 
+               <h6><a href="statewise_covid19_tracker.html">INDIA'S STATE WISE COVID 19 DATA TRACKER</a></h6>
+        
+    <form>
+          
+         <select id="countryname" name="Countryname">
+	    <option value="India">India</option>
+            <option value="United States of America">USA</option>            
+            <option value="Indonesia">Indonesia</option>
+            <option value="Australia">Australia</option>
+            <option value="United Kingdom">UK</option>
+            <option value="United Arab Emirates">United Arab Emirates</option>
+            <option value="China">China</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Japan">Japan</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="Canada">Canada</option>
+            <option value="France">France</option>
+            <option value="Germany">Germany</option>
+            <option value="Italy">Italy</option>
+            <option value="Netherlands">Netherlands</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Switzerland">Switzerland</option>
+          </select>
+
+          <input class="btn btn-primary"type="button" value="Get Data" onclick="f1()">
+
+      </form>
+
+      <h1 ><p id="da" ></p></h1>
+
+      <table border=1 class=" table table-striped">
+      <tr class="table-primary" ><th>Country Name</th>
+      <th>Country Code</th>
+      <th>Date</th>
+      <th>Total Confirmed Cases</th>
+      <th>Total Number of deaths</th>
+      <th>Total Number of Recovered</th>
+      </tr>
+      <tbody id="data">
+      </tbody>
+      </table> 
+
+    </center>   
+</body>
+</html>

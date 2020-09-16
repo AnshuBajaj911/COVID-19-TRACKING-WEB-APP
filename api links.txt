@@ -1,0 +1,3 @@
+API LINK FOR COUNTRY WISE DATA : https://api.covid19api.com/summary
+
+API LINK FOR INDIA'S STATE WISE DATA : https://api.covidindiatracker.com/state_data.json
