@@ -18,7 +18,10 @@
 
                              temp+="<td>"+u.CountryCode+"</td>";
                              temp+="<td>"+u.Date+"</td>";
-                            
+                                 
+                            temp+="<td>"+u.NewConfirmed+"</td>";
+                                 temp+="<td>"+u.NewDeaths+"</td>";
+                             temp+="<td>"+u.NewRecovered+"</td>";
                              temp+="<td>"+u.TotalConfirmed+"</td>";
                              temp+="<td>"+u.TotalDeaths+"</td>";
                              temp+="<td>"+u.TotalRecovered+"</td>";
